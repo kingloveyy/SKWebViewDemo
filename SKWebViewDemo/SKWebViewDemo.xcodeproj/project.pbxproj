@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180C6DBD1C7EE58B00188A39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C6DBC1C7EE58B00188A39 /* main.m */; };
+		180C6DC01C7EE58B00188A39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C6DBF1C7EE58B00188A39 /* AppDelegate.m */; };
+		180C6DC31C7EE58C00188A39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C6DC21C7EE58C00188A39 /* ViewController.m */; };
+		180C6DC61C7EE58C00188A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180C6DC41C7EE58C00188A39 /* Main.storyboard */; };
+		180C6DC81C7EE58C00188A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180C6DC71C7EE58C00188A39 /* Assets.xcassets */; };
+		180C6DCB1C7EE58C00188A39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180C6DC91C7EE58C00188A39 /* LaunchScreen.storyboard */; };
+		180C6DD61C7EE58C00188A39 /* SKWebViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C6DD51C7EE58C00188A39 /* SKWebViewDemoTests.m */; };
+		180C6DE11C7EE58C00188A39 /* SKWebViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C6DE01C7EE58C00188A39 /* SKWebViewDemoUITests.m */; };
+		180C6DF31C7EE70C00188A39 /* SKWebTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C6DF21C7EE70C00188A39 /* SKWebTools.m */; };
+		180C6DF61C7EEF7C00188A39 /* SKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C6DF51C7EEF7C00188A39 /* SKWebViewController.m */; };
+		180C6DF91C7EEF8A00188A39 /* SKWebKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C6DF81C7EEF8A00188A39 /* SKWebKitViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180C6DD21C7EE58C00188A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180C6DB01C7EE58B00188A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180C6DB71C7EE58B00188A39;
+			remoteInfo = SKWebViewDemo;
+		};
+		180C6DDD1C7EE58C00188A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180C6DB01C7EE58B00188A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180C6DB71C7EE58B00188A39;
+			remoteInfo = SKWebViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180C6DB81C7EE58B00188A39 /* SKWebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKWebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180C6DBC1C7EE58B00188A39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180C6DBE1C7EE58B00188A39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		180C6DBF1C7EE58B00188A39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180C6DC11C7EE58C00188A39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		180C6DC21C7EE58C00188A39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		180C6DC51C7EE58C00188A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180C6DC71C7EE58C00188A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180C6DCA1C7EE58C00188A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180C6DCC1C7EE58C00188A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180C6DD11C7EE58C00188A39 /* SKWebViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKWebViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180C6DD51C7EE58C00188A39 /* SKWebViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKWebViewDemoTests.m; sourceTree = "<group>"; };
+		180C6DD71C7EE58C00188A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180C6DDC1C7EE58C00188A39 /* SKWebViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKWebViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180C6DE01C7EE58C00188A39 /* SKWebViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKWebViewDemoUITests.m; sourceTree = "<group>"; };
+		180C6DE21C7EE58C00188A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180C6DF11C7EE70C00188A39 /* SKWebTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWebTools.h; sourceTree = "<group>"; };
+		180C6DF21C7EE70C00188A39 /* SKWebTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKWebTools.m; sourceTree = "<group>"; };
+		180C6DF41C7EEF7C00188A39 /* SKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWebViewController.h; sourceTree = "<group>"; };
+		180C6DF51C7EEF7C00188A39 /* SKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKWebViewController.m; sourceTree = "<group>"; };
+		180C6DF71C7EEF8A00188A39 /* SKWebKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWebKitViewController.h; sourceTree = "<group>"; };
+		180C6DF81C7EEF8A00188A39 /* SKWebKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKWebKitViewController.m; sourceTree = "<group>"; };
+		180C6DFB1C7EF08A00188A39 /* SKWebProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWebProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180C6DB51C7EE58B00188A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180C6DCE1C7EE58C00188A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180C6DD91C7EE58C00188A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180C6DAF1C7EE58B00188A39 = {
+			isa = PBXGroup;
+			children = (
+				180C6DBA1C7EE58B00188A39 /* SKWebViewDemo */,
+				180C6DD41C7EE58C00188A39 /* SKWebViewDemoTests */,
+				180C6DDF1C7EE58C00188A39 /* SKWebViewDemoUITests */,
+				180C6DB91C7EE58B00188A39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180C6DB91C7EE58B00188A39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180C6DB81C7EE58B00188A39 /* SKWebViewDemo.app */,
+				180C6DD11C7EE58C00188A39 /* SKWebViewDemoTests.xctest */,
+				180C6DDC1C7EE58C00188A39 /* SKWebViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180C6DBA1C7EE58B00188A39 /* SKWebViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				180C6DBE1C7EE58B00188A39 /* AppDelegate.h */,
+				180C6DBF1C7EE58B00188A39 /* AppDelegate.m */,
+				180C6DF11C7EE70C00188A39 /* SKWebTools.h */,
+				180C6DF21C7EE70C00188A39 /* SKWebTools.m */,
+				180C6DFB1C7EF08A00188A39 /* SKWebProtocol.h */,
+				180C6DF41C7EEF7C00188A39 /* SKWebViewController.h */,
+				180C6DF51C7EEF7C00188A39 /* SKWebViewController.m */,
+				180C6DF71C7EEF8A00188A39 /* SKWebKitViewController.h */,
+				180C6DF81C7EEF8A00188A39 /* SKWebKitViewController.m */,
+				180C6DC11C7EE58C00188A39 /* ViewController.h */,
+				180C6DC21C7EE58C00188A39 /* ViewController.m */,
+				180C6DC41C7EE58C00188A39 /* Main.storyboard */,
+				180C6DC71C7EE58C00188A39 /* Assets.xcassets */,
+				180C6DC91C7EE58C00188A39 /* LaunchScreen.storyboard */,
+				180C6DCC1C7EE58C00188A39 /* Info.plist */,
+				180C6DBB1C7EE58B00188A39 /* Supporting Files */,
+			);
+			path = SKWebViewDemo;
+			sourceTree = "<group>";
+		};
+		180C6DBB1C7EE58B00188A39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180C6DBC1C7EE58B00188A39 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180C6DD41C7EE58C00188A39 /* SKWebViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				180C6DD51C7EE58C00188A39 /* SKWebViewDemoTests.m */,
+				180C6DD71C7EE58C00188A39 /* Info.plist */,
+			);
+			path = SKWebViewDemoTests;
+			sourceTree = "<group>";
+		};
+		180C6DDF1C7EE58C00188A39 /* SKWebViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180C6DE01C7EE58C00188A39 /* SKWebViewDemoUITests.m */,
+				180C6DE21C7EE58C00188A39 /* Info.plist */,
+			);
+			path = SKWebViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180C6DB71C7EE58B00188A39 /* SKWebViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180C6DE51C7EE58C00188A39 /* Build configuration list for PBXNativeTarget "SKWebViewDemo" */;
+			buildPhases = (
+				180C6DB41C7EE58B00188A39 /* Sources */,
+				180C6DB51C7EE58B00188A39 /* Frameworks */,
+				180C6DB61C7EE58B00188A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKWebViewDemo;
+			productName = SKWebViewDemo;
+			productReference = 180C6DB81C7EE58B00188A39 /* SKWebViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180C6DD01C7EE58C00188A39 /* SKWebViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180C6DE81C7EE58C00188A39 /* Build configuration list for PBXNativeTarget "SKWebViewDemoTests" */;
+			buildPhases = (
+				180C6DCD1C7EE58C00188A39 /* Sources */,
+				180C6DCE1C7EE58C00188A39 /* Frameworks */,
+				180C6DCF1C7EE58C00188A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180C6DD31C7EE58C00188A39 /* PBXTargetDependency */,
+			);
+			name = SKWebViewDemoTests;
+			productName = SKWebViewDemoTests;
+			productReference = 180C6DD11C7EE58C00188A39 /* SKWebViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180C6DDB1C7EE58C00188A39 /* SKWebViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180C6DEB1C7EE58C00188A39 /* Build configuration list for PBXNativeTarget "SKWebViewDemoUITests" */;
+			buildPhases = (
+				180C6DD81C7EE58C00188A39 /* Sources */,
+				180C6DD91C7EE58C00188A39 /* Frameworks */,
+				180C6DDA1C7EE58C00188A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180C6DDE1C7EE58C00188A39 /* PBXTargetDependency */,
+			);
+			name = SKWebViewDemoUITests;
+			productName = SKWebViewDemoUITests;
+			productReference = 180C6DDC1C7EE58C00188A39 /* SKWebViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180C6DB01C7EE58B00188A39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					180C6DB71C7EE58B00188A39 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					180C6DD01C7EE58C00188A39 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 180C6DB71C7EE58B00188A39;
+					};
+					180C6DDB1C7EE58C00188A39 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 180C6DB71C7EE58B00188A39;
+					};
+				};
+			};
+			buildConfigurationList = 180C6DB31C7EE58B00188A39 /* Build configuration list for PBXProject "SKWebViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180C6DAF1C7EE58B00188A39;
+			productRefGroup = 180C6DB91C7EE58B00188A39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180C6DB71C7EE58B00188A39 /* SKWebViewDemo */,
+				180C6DD01C7EE58C00188A39 /* SKWebViewDemoTests */,
+				180C6DDB1C7EE58C00188A39 /* SKWebViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180C6DB61C7EE58B00188A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180C6DCB1C7EE58C00188A39 /* LaunchScreen.storyboard in Resources */,
+				180C6DC81C7EE58C00188A39 /* Assets.xcassets in Resources */,
+				180C6DC61C7EE58C00188A39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180C6DCF1C7EE58C00188A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180C6DDA1C7EE58C00188A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180C6DB41C7EE58B00188A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180C6DF91C7EEF8A00188A39 /* SKWebKitViewController.m in Sources */,
+				180C6DF31C7EE70C00188A39 /* SKWebTools.m in Sources */,
+				180C6DC31C7EE58C00188A39 /* ViewController.m in Sources */,
+				180C6DC01C7EE58B00188A39 /* AppDelegate.m in Sources */,
+				180C6DBD1C7EE58B00188A39 /* main.m in Sources */,
+				180C6DF61C7EEF7C00188A39 /* SKWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180C6DCD1C7EE58C00188A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180C6DD61C7EE58C00188A39 /* SKWebViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180C6DD81C7EE58C00188A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180C6DE11C7EE58C00188A39 /* SKWebViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180C6DD31C7EE58C00188A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180C6DB71C7EE58B00188A39 /* SKWebViewDemo */;
+			targetProxy = 180C6DD21C7EE58C00188A39 /* PBXContainerItemProxy */;
+		};
+		180C6DDE1C7EE58C00188A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180C6DB71C7EE58B00188A39 /* SKWebViewDemo */;
+			targetProxy = 180C6DDD1C7EE58C00188A39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180C6DC41C7EE58C00188A39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180C6DC51C7EE58C00188A39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180C6DC91C7EE58C00188A39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180C6DCA1C7EE58C00188A39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180C6DE31C7EE58C00188A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180C6DE41C7EE58C00188A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180C6DE61C7EE58C00188A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKWebViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.SKWebViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		180C6DE71C7EE58C00188A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKWebViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.SKWebViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		180C6DE91C7EE58C00188A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKWebViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.SKWebViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKWebViewDemo.app/SKWebViewDemo";
+			};
+			name = Debug;
+		};
+		180C6DEA1C7EE58C00188A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKWebViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.SKWebViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKWebViewDemo.app/SKWebViewDemo";
+			};
+			name = Release;
+		};
+		180C6DEC1C7EE58C00188A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKWebViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.SKWebViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKWebViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		180C6DED1C7EE58C00188A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKWebViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.SKWebViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKWebViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180C6DB31C7EE58B00188A39 /* Build configuration list for PBXProject "SKWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180C6DE31C7EE58C00188A39 /* Debug */,
+				180C6DE41C7EE58C00188A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180C6DE51C7EE58C00188A39 /* Build configuration list for PBXNativeTarget "SKWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180C6DE61C7EE58C00188A39 /* Debug */,
+				180C6DE71C7EE58C00188A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180C6DE81C7EE58C00188A39 /* Build configuration list for PBXNativeTarget "SKWebViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180C6DE91C7EE58C00188A39 /* Debug */,
+				180C6DEA1C7EE58C00188A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180C6DEB1C7EE58C00188A39 /* Build configuration list for PBXNativeTarget "SKWebViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180C6DEC1C7EE58C00188A39 /* Debug */,
+				180C6DED1C7EE58C00188A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180C6DB01C7EE58B00188A39 /* Project object */;
+}
